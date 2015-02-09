@@ -40,16 +40,12 @@ from Alignment.CommonAlignmentProducer.ALCARECOTkAlBeamHalo_Output_cff import *
 from Calibration.EcalAlCaRecoProducers.ALCARECOEcalCalPhiSym_Output_cff import *
 # ECAL calibration with isol. electrons
 from Calibration.EcalAlCaRecoProducers.ALCARECOEcalCalIsolElectron_Output_cff import *
-# The following paths are obsoleted since pi0 calibration
-# has a HLT path (argiro,20080314 )
-# ECAL calibration with pi0 
-#  include "Calibration/EcalAlCaRecoProducers/data/ALCARECOEcalCalPi0_Output.cff"
-# ECAL calibration with pi0 Basic Clusters
-#  include "Calibration/EcalAlCaRecoProducers/data/ALCARECOEcalCalPi0BC_Output.cff"
 # ECAL calibration with pi0 hlt path
 from Calibration.EcalAlCaRecoProducers.ALCARECOEcalCalPi0Calib_Output_cff import *
 # ECAL calibration with eta hlt path
 from Calibration.EcalAlCaRecoProducers.ALCARECOEcalCalEtaCalib_Output_cff import *
+# ECAL ES alignment
+from Calibration.EcalAlCaRecoProducers.ALCARECOEcalESAlign_Output_cff import *
 ###############################################################
 # HCAL Calibration
 ###############################################################
